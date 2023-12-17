@@ -46,3 +46,5 @@ Bugs Fixés :
 1) Lorsque l'on voulait modifié un profil, il était impossible de modifié le champ "Name". Je me suis apperçu que ce champ avait l'attribu "disabled", je l'ai donc mis en commentaire. (/app/src/scenes/user/view.js ligne 63)
 
 2) Toujours lorsque l'on voulait modifié un profil, lorque l'on cliquait sur le bouton "Update", rien ne se passait. J'ai donc modifié l'évènement "onChange" en "onClick". (/app/src/scenes/user/view.js ligne 135)
+
+3) Lorsque l'on créait un profil, le champ "Name" ne s'enregistrait pas. J'ai donc changé le nom de l'input en "name" et le la valeur en "user.name" comme cela est défini dans le state "values". (/app/src/scenes/user/list.js ligne 131)
