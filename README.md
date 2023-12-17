@@ -41,3 +41,7 @@ Send us the project and answer to those simple questions :
 - Which feature did you develop and why ? 
 - Do you have any feedback about the code / architecture of the project and what was the difficulty you encountered while doing it ? 
 
+Bugs Fixés :
+
+1) Lorsque l'on voulait modifié un profil, il était impossible de modifié le champ "Name". Je me suis apperçu que ce champ avait l'attribu "disabled", je l'ai donc mis en commentaire. (/app/src/scenes/user/view.js ligne 63)
+
