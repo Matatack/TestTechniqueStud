@@ -80,12 +80,16 @@ const Detail = ({ user }) => {
             <div className="flex flex-wrap justify-between mt-4	space-x-3">
               <div className="w-full md:w-[260px] ">
                 <div className="text-[14px] text-[#212325] font-medium">Job title</div>
-                <input
+                <select className="projectsInput text-[14px] font-normal text-[#212325] rounded-[10px]" type="select" name="job_title" value={values.job_title} onChange={handleChange}>
+                  <option value="active">Job1</option>
+                  <option value="inactive">Job2</option>
+                </select>
+                {/* <input
                   className="projectsInput text-[14px] font-normal text-[#212325] rounded-[10px] bg-[#fff]"
                   name="job_title"
                   value={values.job_title}
                   onChange={handleChange}
-                />
+                /> */}
               </div>
             </div>
 

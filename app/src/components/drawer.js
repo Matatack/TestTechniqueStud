@@ -19,6 +19,7 @@ const DrawerDesktop = () => {
 
         <div className="h-10" />
       </ul>
+      <div className="absolute bottom-0 pl-2 items-center uppercase text-[10px] text-gray-400 font-semibold mt-4 cursor-pointer hover:underline mb-2"><a href="mailto:admin@admin.com?subject=Signalement%20Bug&body=Merci de détailler le bug ci-dessous :">Signaler un bug</a></div>
     </div>
   );
 };
